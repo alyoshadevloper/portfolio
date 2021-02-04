@@ -1,0 +1,407 @@
+ *{
+     padding: 0;
+     margin: 0;
+ }
+
+ body{
+    font-family: 'Open Sans', sans-serif;
+ }
+ 
+ /*=======================Header Start================ */ 
+
+header{
+    background: url(../images/fitness.jpg) no-repeat ;
+    background-size: cover;     
+}
+
+header .navbar{
+    padding: 30px 34px 0 34px;
+}
+
+header .navbar .navbar-toggler{
+    border: 1px solid white;
+}
+
+header .navbar .navbar-toggler .fa{
+    color: white;
+}
+
+header .navbar-light .logo{
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+    text-transform: uppercase;
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+header .navbar-light .logo:hover{
+    color:  #fa7c30;
+    text-shadow: 1px 1px 2px black;
+}
+
+header .navbar-light .logo span{
+    text-transform: uppercase;
+    color: #fa7c30;
+}
+
+header .navbar-light .navbar-collapse .navbar-nav .nav-link{
+    font-weight: 700;
+    font-size: 12px;
+    color: white;
+    text-transform: uppercase;
+} 
+
+header .navbar-light .navbar-collapse .navbar-nav .nav-link:hover{
+    color:  #fa7c30;
+    text-shadow: 1px 1px 2px black;
+}
+
+header .navbar form .btn{
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+ header .navbar form .btn:hover{
+    color:  #fa7c30;
+    text-shadow: 1px 1px 2px black;
+ }
+
+header .navbar .plan{
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 2px solid white;
+    padding: 13px 16px;
+    color: white;
+    text-decoration: none;
+    margin-left: 12px;
+}
+
+header .navbar .plan:hover{
+    border-color:  #fa7c30;
+    color:  #fa7c30;
+}
+
+header h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 70px;
+    color: white;
+    padding-top: 200px;
+}
+
+header h1 span{
+    color: #fa7c30;
+    display:block;
+}
+
+header p{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 22px;
+    padding-bottom: 70px;
+    margin: 0;
+}
+
+header .touch{
+    width: 170px;
+    padding: 10px 0;
+    font-weight: 400;
+    background-color: #fa7c30;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+    margin-bottom: 300px;
+}
+
+button:hover{
+    box-shadow: 1px 1px 2px black;
+}
+
+/* ==================Main Start================ */
+
+main{
+    padding-bottom: 100px;
+    background-color: #f1f4f6;
+}
+
+main .header_booking{
+    background-color: #fff;
+    transform: translateY(-170px);
+}
+
+main  .header_booking h3{
+    font-weight: 700;
+    font-size: 26px;
+    text-transform: uppercase;
+    color:black;
+    text-align: center;
+    padding-top: 73px;
+    margin: 0;
+}
+
+main  .header_booking h2{
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: uppercase;
+    color:black;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    margin: 0;
+}  
+ 
+main h2{
+    padding-top: 100px;
+    font-weight: 700;
+    font-size: 36px;
+    color: black;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+main h2 span{
+    color: #fa7c30;
+}
+
+main p:first-of-type{
+    font-weight: 700;
+    font-size: 14px;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+main p:last-of-type{
+    font-weight: 400;
+    font-size: 14px;
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    text-align: justify;
+}
+
+main button{
+    width: 170px;
+    padding: 10px 0;
+    font-weight: 400;
+    background-color: #fa7c30;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+}
+
+main img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+ /*==============Section Start=============== */ 
+
+section{
+    margin-top: 80px;
+}
+
+section h2{
+    font-weight: 700;
+    font-size: 36px;
+    color: black;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+
+section h2 span{
+    color: #fa7c30;
+}
+
+section p:first-of-type{
+    font-weight: 400;
+    font-size: 14px;
+    color: black;
+    margin-bottom: 52px;
+}
+
+section .card{
+    background-color: #f1f4f6;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 80px;
+}
+
+section .card-img-top{
+    max-width: 100%;
+    height: auto;
+    border-radius: 0;
+}
+
+section .card .card-body{
+    padding: 41px 52px 35px 40px;
+}
+
+section .card .card-body .card-title{
+    font-weight: 700;
+    font-size: 26px;
+    color: black;
+    margin-bottom: 33px;
+}
+
+section .card .card-body .card-text{
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+    margin-bottom: 80px;
+}
+
+.btn_get{
+    width: 170px;
+    padding: 10px 0;
+    font-weight: 400;
+    background-color: #fa7c30;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+}
+section   .bd-example .carousel .carousel-inner .carousel-item .carousel-caption{
+    bottom: 120px;
+}
+
+section .bd-example .carousel .carousel-inner .carousel-item .carousel-caption h5{
+    font-weight: 400;
+    font-size: 36px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+section  .bd-example .carousel .carousel-inner .carousel-item .carousel-caption h3{
+    font-weight: 700;
+    font-size: 70px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+section .section_third{
+    margin: 80px 0;
+}
+
+section .section_third .card{
+    background-color: #fff;
+    vertical-align: middle;
+    margin-bottom: 0;
+   
+}
+
+section .section_third .card img{
+    max-width: 100%;
+    height: auto;
+}
+section .section_third .card .card-body{
+    padding: 40px 0px 0px 0px;
+}
+section .section_third .card .card-body .card-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 26px;
+    color: black;
+}
+
+section .section_third .card .card-body .card-title span{
+    display: block;
+    text-transform: uppercase;
+    color: #fa7c30;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+section .section_third .card .card-body .card-text{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+section .section_left{
+    background: url(../images/fitness_34.png) no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 125px;
+}
+
+section .section_left h3{
+    font-weight: 700;
+    font-size: 18px;
+    padding-top: 135px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+section .section_left h2{
+    font-weight: 700;
+    font-size: 46px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 48px;
+    text-align: center;
+    padding-bottom: 0;
+}
+
+section .section_right{
+    background: url(../images/fitness_35.png) no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 125px;
+}
+
+section .section_right h3{
+    font-weight: 700;
+    font-size: 18px;
+    padding-top: 135px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+section .section_right .phone{
+    font-weight: 700;
+    font-size: 46px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 48px;
+    text-align: center;
+    padding-bottom: 0;
+}
+
+section .section_right .phone:hover{
+    color: #fa7c30;
+    text-shadow: 1px 1px 2px black;
+}
+
+/*==============Footer Strat */
+
+footer img{
+    max-width: 100%;
+    height: auto;
+     
+}

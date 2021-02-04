@@ -1,0 +1,656 @@
+header {
+  background: url(../img/headerbg.png) no-repeat center center / cover;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+header .header_top {
+  padding-top: 40px;
+}
+
+header .header_top .navbar {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+}
+
+header .header_top .navbar ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .header_top .navbar ul li {
+  margin: 0px 15px;
+}
+
+header .header_top .navbar ul li .nav_links {
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+  font-size: 16px;
+  -webkit-transition: 500ms;
+  -o-transition: 500ms;
+  transition: 500ms;
+}
+
+header .header_top .navbar ul li .nav_links:hover {
+  color: orangered;
+  text-shadow: 2px 2px 10px black;
+}
+
+header .header_top .navbar ul li .logo {
+  font-size: 24px;
+  margin-right: 60px;
+  margin-left: 0;
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+}
+
+header .header_top .navbar ul li .logo:hover {
+  color: orangered;
+  text-shadow: 2px 2px 10px black;
+}
+
+header .header_top .navbar .login {
+  border-radius: 10px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 15px 35px;
+  font-size: 16px;
+  -webkit-transition: 500ms;
+  -o-transition: 500ms;
+  transition: 500ms;
+}
+
+header .header_top .navbar .login:hover {
+  -webkit-box-shadow: 2px 2px 10px black;
+  box-shadow: 2px 2px 10px black;
+  border: 2px solid #ff4848;
+}
+
+header .header_top .navbar .login i {
+  display: none;
+}
+
+header .header_top .navbar .login span {
+  display: block;
+}
+
+header .bars .bar {
+  padding: 12px;
+  -webkit-transition: 500ms;
+  -o-transition: 500ms;
+  transition: 500ms;
+}
+
+header .bars .bar:hover {
+  -webkit-box-shadow: 2px 2px 10px black;
+  box-shadow: 2px 2px 10px black;
+  border: 2px solid #ff4848;
+}
+
+header .header_title {
+  margin-top: 20%;
+  width: 100%;
+  height: auto;
+}
+
+header .header_title h1 {
+  color: white;
+  font-size: 72px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+header .header_title p {
+  font-weight: 400;
+  font-size: 30px;
+  text-transform: capitalize;
+  text-align: center;
+  color: white;
+  padding-bottom: 20%;
+}
+
+header .form_search {
+  position: absolute;
+  bottom: -45px;
+  width: 100%;
+}
+
+header .form_search form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+header .form_search form input {
+  border: none;
+  border-right: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  padding: 20px 70px 20px 30px;
+  color: #818181;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+header .form_search form .search {
+  background-color: #ff4b64;
+  color: white;
+  padding: 35px 20px;
+  border: none;
+  font-size: 16px;
+  border-radius: unset;
+}
+
+section {
+  position: relative;
+}
+
+section h2 {
+  font-size: 30px;
+  font-weight: 400;
+  color: #484848;
+  margin-bottom: 60px;
+  text-transform: capitalize;
+}
+
+section .flights {
+  margin-top: 100px;
+}
+
+section .flights .flights_title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+section .flights .flights_title .right_title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section .flights .flights_title .right_title p {
+  font-weight: 500;
+  font-size: 16px;
+  color: #484848;
+  text-transform: capitalize;
+  margin-right: 35px;
+  -webkit-transition: 500ms;
+  -o-transition: 500ms;
+  transition: 500ms;
+}
+
+section .flights .flights_title .right_title p:hover {
+  color: #ff4b64;
+  text-shadow: 2px 2px 2px white;
+}
+
+section .flights .flights_title .right_title p:hover::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 50%;
+  background-color: #ff4b64;
+  margin: auto;
+  margin-top: 5px;
+  -webkit-box-shadow: 2px 2px 1px black;
+  box-shadow: 2px 2px 1px black;
+}
+
+section .flights .airline_title p {
+  text-transform: capitalize;
+  color: #484848;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+section .flights p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #484848;
+  text-transform: capitalize;
+}
+
+section .flights p span {
+  display: block;
+  margin-top: 20px;
+  color: #9a9a9a;
+  text-transform: uppercase;
+}
+
+section .flights .flights_airline {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section .flights .box_imges {
+  margin-right: 20px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+section .flights .transavia,
+section .flights .delta,
+section .flights .vueling,
+section .flights .air_france,
+section .flights .american {
+  padding: 50px 0px;
+  border-top: 1px solid #9a9a9a;
+  border-bottom: 1px solid #9a9a9a;
+}
+
+section .flights .flights_price p {
+  color: #ff4b64;
+  padding: 17px 36px;
+  border: 2px solid #ff4b64;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+section .hotels {
+  margin-top: 80px;
+}
+
+section .hotels .hotels_title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+section .hotels .hotels_title .right_title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section .hotels .hotels_title .right_title p {
+  font-weight: 500;
+  font-size: 16px;
+  color: #484848;
+  text-transform: capitalize;
+  margin-right: 35px;
+  -webkit-transition: 500ms;
+  -o-transition: 500ms;
+  transition: 500ms;
+}
+
+section .hotels .hotels_title .right_title p:hover {
+  color: #ff4b64;
+  text-shadow: 2px 2px 2px white;
+}
+
+section .hotels .hotels_title .right_title p:hover::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 50%;
+  background-color: #ff4b64;
+  margin: auto;
+  margin-top: 5px;
+  -webkit-box-shadow: 2px 2px 1px black;
+  box-shadow: 2px 2px 1px black;
+}
+
+section .hotels .hotel_text {
+  border-left: 1px solid #9a9a9a;
+  border-right: 1px solid #9a9a9a;
+  border-bottom: 1px solid #9a9a9a;
+  padding: 27px 15px 25px;
+}
+
+section .hotels .hotel_text h3 {
+  font-weight: 500;
+  font-size: 16px;
+  color: #484848;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+
+section .hotels .hotel_text p {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  color: #9a9a9a;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+section .hotels .hotel_text .price {
+  color: #ff4b64;
+  padding: 10px 30px;
+  border: 2px solid #ff4b64;
+  border-radius: 10px;
+  width: 30%;
+  margin-top: 25px;
+}
+
+section .attractions {
+  margin-top: 80px;
+}
+
+section .attractions .attractions_title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+section .attractions .attractions_title .right_title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section .attractions .attractions_title .right_title p {
+  font-weight: 500;
+  font-size: 16px;
+  color: #484848;
+  text-transform: capitalize;
+  margin-right: 35px;
+  -webkit-transition: 500ms;
+  -o-transition: 500ms;
+  transition: 500ms;
+}
+
+section .attractions .attractions_title .right_title p:hover {
+  color: #ff4b64;
+  text-shadow: 2px 2px 2px white;
+}
+
+section .attractions .attractions_title .right_title p:hover::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 50%;
+  background-color: #ff4b64;
+  margin: auto;
+  margin-top: 5px;
+  -webkit-box-shadow: 2px 2px 1px black;
+  box-shadow: 2px 2px 1px black;
+}
+
+section .trips {
+  margin-top: 80px;
+}
+
+section .trips .box_img {
+  height: 100%;
+}
+
+section .trips .box_img img {
+  width: 100%;
+  height: 100%;
+}
+
+section .trips .trips_title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+section .trips .trips_title .right_title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section .trips .trips_title .right_title p {
+  font-weight: 500;
+  font-size: 16px;
+  color: #484848;
+  text-transform: capitalize;
+  margin-right: 35px;
+  -webkit-transition: 500ms;
+  -o-transition: 500ms;
+  transition: 500ms;
+}
+
+section .trips .trips_title .right_title p:hover {
+  color: #ff4b64;
+  text-shadow: 2px 2px 2px white;
+}
+
+section .trips .trips_title .right_title p:hover::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 50%;
+  background-color: #ff4b64;
+  margin: auto;
+  margin-top: 5px;
+  -webkit-box-shadow: 2px 2px 1px black;
+  box-shadow: 2px 2px 1px black;
+}
+
+section .trips .trips_texts {
+  border: 1px solid #9a9a9a;
+  border-left: none;
+  padding: 23px 40px 40px 30px;
+}
+
+section .trips .trips_texts h3 {
+  font-weight: 500;
+  font-size: 16px;
+  color: #484848;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+
+section .trips .trips_texts p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #484848;
+  line-height: 30px;
+}
+
+section .mb_20 {
+  margin-bottom: 20px;
+}
+
+footer {
+  margin-top: 100px;
+}
+
+footer h3 {
+  font-weight: 400;
+  font-size: 30px;
+  color: #484848;
+  text-transform: capitalize;
+  margin-bottom: 60px;
+}
+
+footer ul li {
+  margin-bottom: 30px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 16px;
+  color: #484848;
+}
+
+footer p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #484848;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+
+footer .contact {
+  color: #ff4b64;
+  text-transform: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: Lato;
+}
+
+body .click_top {
+  position: fixed;
+  right: 90px;
+  display: none;
+  top: 300px;
+  z-index: 111;
+}
+
+body .click_top .scroll_top {
+  color: #ff4848;
+  background-color: transparent;
+  font-size: 40px;
+  border-radius: 5px;
+  border: none;
+  text-shadow: 2px 2px 2px black;
+}
+
+body .btn {
+  border-radius: 10px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 15px 35px;
+  font-size: 16px;
+  text-align: center;
+  -webkit-transition: 500ms;
+  -o-transition: 500ms;
+  transition: 500ms;
+  text-transform: capitalize;
+}
+
+body .box_img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  header .header_top .navbar ul li .nav_links {
+    display: none;
+  }
+
+  header .header_top .navbar .login i {
+    display: block;
+  }
+
+  header .header_top .navbar .login span {
+    display: none;
+  }
+
+  header .header_top .navbar .login {
+    display: none;
+    padding: 10px;
+    border-radius: 50%;
+  }
+
+  header .header_title h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+  }
+
+  header .header_title p {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  header .header_top .navbar ul li {
+    margin: 0px 5px;
+  }
+
+  header .header_top .navbar ul li .nav_links {
+    font-size: 14px;
+  }
+
+  header .header_top .navbar .login {
+    display: none;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 14px;
+  }
+
+  header .bars .bar {
+    display: block;
+    padding: 5px;
+    border-radius: 50%;
+  }
+
+  header .header_title h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  header .header_title p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  body .click_top {
+    right: 10px;
+    top: 100px;
+  }
+
+  body .click_top .scroll_top {
+    font-size: 30px;
+  }
+}

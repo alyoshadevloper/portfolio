@@ -1,0 +1,472 @@
+header {
+  background-color: #1d1d1d;
+  width: 100%;
+  height: auto;
+}
+
+header .owl-carousel {
+  position: relative;
+}
+
+header .owl-carousel .carosel_img {
+  width: 100%;
+  height: 600px;
+  position: relative;
+}
+
+header .owl-carousel .carosel_img img {
+  max-width: 100%;
+  height: 600px;
+}
+
+header .owl-carousel .owl-prev {
+  position: absolute;
+  top: 40%;
+  left: 0px;
+  width: 50px;
+  height: 100px;
+  background-color: #da491c !important;
+}
+
+header .owl-carousel .owl-prev span {
+  color: white;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+header .owl-carousel .owl-next {
+  position: absolute;
+  top: 40%;
+  right: 0px;
+  background-color: #da491c !important;
+  width: 50px;
+  height: 100px;
+}
+
+header .owl-carousel .owl-next span {
+  color: white;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+section {
+  padding-top: 170px;
+}
+
+section h2 {
+  font-weight: 600;
+  color: black;
+  text-transform: uppercase;
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+
+section .links {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+section .links p {
+  font-size: 14px;
+  color: #666666;
+  text-transform: capitalize;
+  margin-right: 15px;
+}
+
+section .links p i {
+  color: black;
+  margin-right: 10px;
+}
+
+section .links p span {
+  color: #da491c;
+}
+
+section p {
+  font-size: 14px;
+  color: #666666;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+section .point_dali {
+  margin: 40px 0px;
+  border-top: 1px solid #d2d1cf;
+  border-bottom: 1px solid #d2d1cf;
+  padding: 25px 0px;
+}
+
+section .point_dali p {
+  color: #da491c;
+  font-size: 30px;
+  text-transform: capitalize;
+  line-height: 40px;
+}
+
+section .social_icons {
+  margin-top: 70px;
+}
+
+section .social_icons a {
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+section .social_icons a i {
+  padding: 10px;
+  border-radius: 50%;
+}
+
+section .social_icons a .fa-twitter {
+  background-color: #0084b4;
+}
+
+section .social_icons a .fa-facebook-f {
+  background-color: #4267b2;
+}
+
+section .social_icons a .fa-google-plus-g {
+  background-color: #db4a39;
+}
+
+section .social_icons a .fa-instagram {
+  background-color: #f09433;
+}
+
+section .social_icons a .fa-invision {
+  background-color: #4267b2;
+}
+
+section .comments {
+  margin-top: 50px;
+}
+
+section .comments h3 {
+  font-weight: 600;
+  font-size: 14px;
+  color: black;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+section .comments h3::after {
+  content: "";
+  width: 85%;
+  height: 1px;
+  background-color: #666666;
+  display: block;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+section .comments .box_imges {
+  text-align: center;
+}
+
+section .comments .box_imges img {
+  border-radius: 50%;
+  text-align: center;
+}
+
+section .comments .text_top {
+  margin-bottom: 15px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+section .comments .text_top p {
+  color: #333333;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+section .comments .text_top p span {
+  font-weight: 400;
+}
+
+section .comments .text_top .reply {
+  font-weight: 400;
+}
+
+section .comments .text_top .reply i {
+  margin-right: 5px;
+}
+
+section .comments .text_stbl p {
+  font-size: 14px;
+  color: #666666;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+section .ml_50 {
+  margin-left: 50px;
+}
+
+section .mb_50 {
+  margin-bottom: 50px;
+}
+
+section .right_box form label {
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: #333333;
+}
+
+section .right_box form label input {
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333333;
+  padding: 15px 15px 12px;
+  margin-bottom: 50px;
+  margin-top: 10px;
+  width: 100%;
+  line-height: 0px;
+}
+
+section .right_box .right_btn {
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+section .right_box .right_btn button {
+  margin-top: 0;
+}
+
+section .right_box .right_btn .comments {
+  margin-left: 5px;
+  padding: 15px 7px;
+}
+
+section .right_box p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #333333;
+  text-transform: capitalize;
+  border-bottom: 1px solid #666666;
+  padding-bottom: 12px;
+}
+
+section .right_box .marketing {
+  padding: 10px 17px;
+  width: 100%;
+  background-color: #333333;
+  color: white;
+  margin-bottom: 20px;
+  border: none;
+  line-height: 30px;
+}
+
+section .right_box .right_text_box {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+section .right_box .right_text_box p {
+  line-height: 20px;
+  border: none;
+}
+
+section .right_box .right_text_box img {
+  height: 100%;
+}
+
+section .right_box .right_text_box .box_texts {
+  margin-left: 14px;
+  max-width: 63%;
+}
+
+section .right_box .right_text_box .comments_new {
+  margin-top: 30px;
+}
+
+section .right_box .right_text_box .coment {
+  color: white;
+  background-color: #333333;
+  border: none;
+  border-radius: 5px;
+  padding: 6px 10px;
+}
+
+footer {
+  background-color: #333333;
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+footer ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+footer ul li {
+  margin: 0px 14px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 13px;
+}
+
+footer form input {
+  font-size: 60px;
+  font-weight: 300;
+  color: #4c4c4c;
+  padding-bottom: 20px;
+  border: none;
+  border-bottom: 2px solid #929292;
+  background-color: transparent;
+  text-transform: capitalize;
+}
+
+footer form p {
+  color: white;
+  text-transform: capitalize;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+footer .last_text {
+  font-size: 14px;
+  margin-top: 60px;
+  font-weight: 400;
+  color: white;
+  text-transform: capitalize;
+}
+
+footer h3 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 700px;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+footer p {
+  color: white;
+  font-size: 14px;
+  line-height: 30px;
+  text-transform: capitalize;
+}
+
+footer .social_icon {
+  margin-top: 35px;
+}
+
+footer .social_icon i {
+  margin-right: 8px;
+  color: black;
+  border-radius: 50%;
+  padding: 8px;
+  background-color: white;
+  font-size: 16px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: Lato;
+}
+
+body .click_top {
+  position: fixed;
+  right: 90px;
+  display: block;
+  top: 200px;
+  z-index: 111;
+}
+
+body .click_top .scroll_top {
+  color: #ff4848;
+  background-color: black;
+  font-size: 40px;
+  border-radius: 5px;
+  border: none;
+  text-shadow: 2px 2px 2px black;
+}
+
+body .btn {
+  padding: 15px 16px;
+  background-color: #333333;
+  border: none;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 13px;
+  text-align: center;
+  color: white;
+  -webkit-transition: 500ms;
+  -o-transition: 500ms;
+  transition: 500ms;
+  line-height: 0px;
+}
+
+body .btn:hover {
+  background-color: #ff4848;
+  -webkit-box-shadow: 2px 2px 2px black;
+  box-shadow: 2px 2px 2px black;
+}
+
+@media (max-width: 576px) {
+  header {
+    padding-top: 20px;
+  }
+
+  body .click_top {
+    right: 10px;
+    top: 100px;
+  }
+
+  body .click_top .scroll_top {
+    font-size: 30px;
+  }
+}

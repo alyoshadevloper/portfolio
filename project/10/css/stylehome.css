@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*=======================  Header Start  ================ */ 
+
+header{
+    padding: 18px 0;
+}
+
+header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link{
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #191919;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover{
+    color: #007d2f;
+    text-shadow: 1px 1px 2px gray;
+}
+header .navbar .navbar-toggler{
+    border: 1px solid black;
+}
+
+header .navbar .fa{
+    color: black;
+    font-size: 30px;
+}
+
+/*=======================  Main Start  ================ */ 
+
+main{
+    padding: 100px 0;
+    background-color: #007d2f;
+}
+
+main h1{
+    font-size: 30px;
+    font-weight: 500;
+    color: #171717;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 38px;
+}
+
+main p{
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    margin-bottom: 0;
+}
+
+section .section_middle_img{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;  
+    position: relative;
+}
+.section .section_middle_img img{
+    height: auto;   
+    max-width: 100%;
+}
+
+section .section_middle_img  .fa{
+    background-color: rgba(55, 137 , 86 , 0.85);
+    width: 100%;
+    position: absolute;
+    top: 0; 
+    height: 100%;
+    padding-top: 130px;
+    display: none;
+} 
+section .section_middle_img:hover .fa{
+    display: block;
+    
+}
+
+section .fa{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    transition: 1s;
+}
+
+section .fa:hover{
+    transform: rotate(360deg);
+    color: green;
+    text-shadow: 1px 1px 2px black;
+}
+
+/*=======================  Footer Start  ================ */ 
+
+footer{
+    background-color: black;
+    padding: 100px 0;
+}
+
+footer h3{
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    padding-bottom: 30px;
+    margin-bottom: 0;
+}
+
+footer p{
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+    margin-bottom: 0;
+}
+
+footer a{
+    display: block;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+    margin-bottom: 0;
+}
+
+footer a:hover{
+    color: green;
+    text-shadow: 1px 1px 2px black;
+    text-decoration: none;
+}
+
+footer ul{
+    list-style: none;
+}
+
+/*=======================  Media Start  ================ */ 
+
+@media(max-width:992px){
+    section  .section_middle_img .fa{
+        padding-top: 100px;
+    }
+}
+
+@media(max-width:576px){
+    section  .section_middle_img .fa{
+        padding-top: 120px;
+    }
+}
+
+@media(max-width:320px){
+    section  .section_middle_img .fa{
+        padding-top: 125px;
+    }
+}
+

@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*=======================  Header Start  ================ */ 
+
+header{
+    padding: 18px 0;
+}
+
+header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link{
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #191919;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover{
+    color: #007d2f;
+    text-shadow: 1px 1px 2px gray;
+}
+header .navbar .navbar-toggler{
+    border: 1px solid black;
+}
+
+header .navbar .fa{
+    color: black;
+    font-size: 30px;
+}
+
+/*=======================  Main Start  ================ */ 
+
+main{
+    padding: 110px 0;
+    background-color: #323232;
+}
+
+main h1{
+    font-size: 60px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+main p{
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    margin-bottom: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+/*=======================  Main Start  ================ */ 
+
+section  {
+    background-color: #007d2f;
+    padding-top: 61px;
+}
+
+section  .fa{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    display: block;
+    transition: 1s;
+}
+
+section   .fa:hover{
+    transform: rotate(360deg);
+    color: green;
+    text-shadow: 1px 1px 2px black;
+}
+
+section  p:first-of-type{
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+}
+
+section  p:last-of-type{
+    font-weight: 500;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    padding-bottom: 100px;
+}
+ 
+
+/*=======================  Footer Start  ================ */ 
+
+footer{
+    background-color: black;
+    padding: 100px 0 90px;
+}
+
+footer h3{
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    padding-bottom: 30px;
+    margin-bottom: 0;
+}
+
+footer p{
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+    margin-bottom: 0;
+}
+
+footer a{
+    display: block;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+    margin-bottom: 0;
+}
+
+footer a:hover{
+    color: green;
+    text-shadow: 1px 1px 2px black;
+    text-decoration: none;
+}
+
+footer ul{
+    list-style: none;
+}
+
+@media (max-width:320px){
+    main h1{
+        font-size: 35px;
+    }
+
+    main p{
+        font-size: 15px;
+    }
+
+    footer{
+        padding: 50px 0;
+    }
+}

@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*=======================  Header Start  ================ */ 
+
+header{
+    padding: 18px 0;
+}
+
+header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link{
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #191919;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover{
+    color: #007d2f;
+    text-shadow: 1px 1px 2px gray;
+}
+header .navbar .navbar-toggler{
+    border: 1px solid black;
+}
+
+header .navbar .fa{
+    color: black;
+    font-size: 30px;
+}
+
+.btn_stbl{
+    background-color: #007d2f;
+    border: none;
+    font-weight: 500;
+    font-size: 12px;
+    color: white;
+    text-transform: uppercase;
+    padding: 22px 45px;
+    line-height: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn_stbl:hover{
+    box-shadow: 1px 1px 5px black;
+}
+
+/*=======================  Main Start  ================ */ 
+
+main{
+    background-color: #f5f5f5;
+    padding-top: 100px;
+}
+
+main h1{
+    font-weight: 500;
+    font-size: 30px;
+    color: #171717;
+    padding-bottom: 40px;
+}
+
+main .main_first{
+    padding-bottom: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: justify;
+    color: #787878;
+}
+
+ main .main_second{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: justify;
+    color: #787878;
+}
+ 
+main .main_second span{
+    font-weight: 700;
+    color: #171717;
+}
+
+main iframe{
+    margin: 100px 0;
+}
+
+/*=======================  Footer Start  ================ */ 
+
+footer{
+    background-color: black;
+    padding: 100px 0 90px;
+}
+
+footer h3{
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    padding-bottom: 30px;
+    margin-bottom: 0;
+}
+
+footer p{
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+    margin-bottom: 0;
+}
+
+footer a{
+    display: block;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+    margin-bottom: 0;
+}
+
+footer a:hover{
+    color: green;
+    text-shadow: 1px 1px 2px black;
+    text-decoration: none;
+}
+
+footer ul{
+    list-style: none;
+}
+
+@media (max-width:320px){
+    footer{
+        padding: 50px 0;
+    }
+}
+
+
